@@ -1,0 +1,39 @@
+/* -------- global styles -------- */
+html,body {
+	margin: 0 auto;
+	font-size: 12px;
+	font-family: "Helvetica", Arial, sans-serif;
+	text-align: center;	
+	color: #333;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 10px 0 20px 0;
+}
+
+p {
+    font-size: 15px;
+    
+}
+
+.gameBox {
+    width: 400px;
+    display: block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px #666;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.submit {
+    background-color: #f09114;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #7f4c00;
+}
