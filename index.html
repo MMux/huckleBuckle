@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
     <meta charset="UTF-8" />
     <title>Huckle Buckle Game</title>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div id="container">
         <h1>Hot or Cold</h1>
         <div class="gameBox">
             <p class="">
@@ -15,16 +16,18 @@
             <br/>
             Guess the number this all-knowing machine has chosen at random.
             </p>
-            <div class="input">
-                <input type="text" value="" id="guess">
+            <div id="input">
+                <input id="guess" type="text" value="">
                 <button class="submit">Give it a whirl!</button>
             </div><!-- end input -->
-            <div class="answer">
-            <div class="">
-        </div>  
+            <div id="answer">
+            </div>
+        </div><!-- end gameBox -->
+  
         </div class="newGame">
                 <button class="reset">New Game</button>
-            </div>  
+        </div>  
     </div><!-- end container -->
+    <script src="js/application.js"></script>
 </body>
 </html>

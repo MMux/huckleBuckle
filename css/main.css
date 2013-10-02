@@ -2,7 +2,7 @@
 html,body {
 	margin: 0 auto;
 	font-size: 12px;
-	font-family: "Helvetica", Arial, sans-serif;
+	font-family: 'Patua One', cursive;
 	text-align: center;	
 	color: #333;
 	background-color: #f6f6f6;
@@ -15,6 +15,10 @@ h1 {
 
 p {
     font-size: 15px;
+    
+}
+
+#container {
     
 }
 
@@ -49,7 +53,7 @@ p {
     border: 1px solid #666;
 }
 
-.answer {
+#answer {
     margin: 20px auto;
     width: 300px;
 }
