@@ -5,6 +5,7 @@ html,body {
 	font-family: "Helvetica", Arial, sans-serif;
 	text-align: center;	
 	color: #333;
+	background-color: #f6f6f6;
 }
 
 h1 {
@@ -36,4 +37,24 @@ p {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border: 1px solid #7f4c00;
+}
+
+.reset {
+    background-color: #bcbcbc;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #666;
+}
+
+.answer {
+    margin: 20px auto;
+    width: 300px;
+}
+
+.newGame {
+    display: block;
+    margin: 40px auto;
 }
